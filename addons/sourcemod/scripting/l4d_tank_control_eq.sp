@@ -15,25 +15,21 @@
 #define IS_VALID_INFECTED(%1)   (IS_VALID_INGAME(%1) && IS_INFECTED(%1))
 #define IS_VALID_CASTER(%1)     (IS_VALID_INGAME(%1) && casterSystemAvailable && IsClientCaster(%1))
 
-#define TANK_VOTE_TIMEOUT       20
-
 ArrayList h_whosHadTank;
-ArrayList h_tankVotes;
-ArrayList h_tankVotesClientIds;
-
 char queuedTankSteamId[64];
 ConVar hTankPrint, hTankDebug;
-
 bool casterSystemAvailable;
-bool tankVoteInProgress;
-bool tankSelectedByVotes;
-int remainingVotes;
+Handle hForwardOnTryOfferingTankBot;
+Handle hForwardOnTankSelection;
 
 public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
 {
-	CreateNative("GetTankSelection", Native_GetTankSelection);
+    CreateNative("GetTankSelection", Native_GetTankSelection);
 
-	return APLRes_Success;
+    hForwardOnTryOfferingTankBot = CreateGlobalForward("TankControl_OnTryOfferingTankBot", ET_Ignore, Param_String);
+    hForwardOnTankSelection = CreateGlobalForward("TankControl_OnTankSelection", ET_Ignore, Param_String);
+
+    return APLRes_Success;
 }
 
 public int Native_GetTankSelection(Handle plugin, int numParams) { return getInfectedPlayerBySteamId(queuedTankSteamId); }
@@ -43,7 +39,7 @@ public Plugin myinfo =
     name = "L4D2 Tank Control",
     author = "arti",
     description = "Distributes the role of the tank evenly throughout the team",
-    version = "0.0.18",
+    version = "0.0.19",
     url = "https://github.com/alexberriman/l4d2-plugins/tree/master/l4d_tank_control"
 }
 
@@ -82,13 +78,7 @@ public void OnPluginStart()
     
     // Initialise the tank arrays/data values
     h_whosHadTank = new ArrayList(ByteCountToCells(64));
-    h_tankVotes = CreateArray(64);
-    h_tankVotesClientIds = CreateArray(64);
-
-    tankVoteInProgress = false;
-    tankSelectedByVotes = false;
-    remainingVotes = 0;
-
+    
     // Admin commands
     RegAdminCmd("sm_tankshuffle", TankShuffle_Cmd, ADMFLAG_SLAY, "Re-picks at random someone to become tank.");
     RegAdminCmd("sm_givetank", GiveTank_Cmd, ADMFLAG_SLAY, "Gives the tank to a selected player");
@@ -105,209 +95,17 @@ public void OnPluginStart()
 
 public void OnAllPluginsLoaded()
 {
-	casterSystemAvailable = LibraryExists("caster_system");
+    casterSystemAvailable = LibraryExists("caster_system");
 }
 
 public void OnLibraryAdded(const char[] name)
 {
-	if (StrEqual(name, "caster_system")) casterSystemAvailable = true;
+    if (StrEqual(name, "caster_system")) casterSystemAvailable = true;
 }
 
 public void OnLibraryRemoved(const char[] name)
 {
-	if (StrEqual(name, "caster_system")) casterSystemAvailable = false;
-}
-
-public void OnRoundIsLive()
-{
-    ShowTankVoteMenu();
-}
-
-public void ShowTankVoteMenu()
-{
-    tankVoteInProgress = false;
-    tankSelectedByVotes = false;
-    remainingVotes = 0;
-
-    h_tankVotes.Clear();
-    h_tankVotesClientIds.Clear();
-
-    ArrayList infectedPool = new ArrayList(ByteCountToCells(64));
-    addTeamSteamIdsToArray(infectedPool, L4D2Team_Infected);
-
-    if (GetArraySize(infectedPool) == 0)
-    {
-        delete infectedPool;
-        return;
-    }
-
-    removeTanksFromPool(infectedPool, h_whosHadTank);
-
-    if (GetArraySize(infectedPool) == 0)
-        addTeamSteamIdsToArray(infectedPool, L4D2Team_Infected);
-
-    if (GetArraySize(infectedPool) == 1)
-    {
-        char steamId[64];
-        GetArrayString(infectedPool, 0, steamId, sizeof(steamId));
-        strcopy(queuedTankSteamId, sizeof(queuedTankSteamId), steamId);
-
-        delete infectedPool;
-        tankSelectedByVotes = true;
-
-        outputTankToAll(0);
-
-        return;
-    }
-
-    for (int client = 1; client <= MaxClients; client++)
-	{
-        if (!IsClientInGame(client) || IsFakeClient(client) || GetClientTeam(client) != 3)
-            continue;
-
-        Handle menu = CreateMenu(TankVoteMenuHandler, MENU_ACTIONS_DEFAULT);
-        SetMenuTitle(menu, "Who should be the tank?");
-
-        for (int i = 0; i < GetArraySize(infectedPool); i++)
-        {
-            char steamId[64];
-            GetArrayString(infectedPool, i, steamId, sizeof(steamId));
-            
-            int clientId = getInfectedPlayerBySteamId(steamId);
-            
-            char name[64];  
-            GetClientName(clientId, name, sizeof(name));
-
-            AddMenuItem(menu, steamId, name);
-        }
-
-        SetMenuExitButton(menu, false);
-        DisplayMenu(menu, client, TANK_VOTE_TIMEOUT);
-
-        tankVoteInProgress = true;
-        remainingVotes++;
-	}
-
-    delete infectedPool;
-
-    CreateTimer(TANK_VOTE_TIMEOUT + 0.5, Timer_ChooseTank);
-
-    PrintToInfected("{red}[Tank Vote] {default}Choose who will be the tank, you have \x04%d {default}seconds to vote", TANK_VOTE_TIMEOUT);
-}
-
-public int TankVoteMenuHandler(Handle menu, MenuAction action, int client, int option)
-{
-    switch(action)
-    {
-        case MenuAction_Select:
-        {
-            char steamId[64];
-            GetMenuItem(menu, option, steamId, sizeof(steamId));
-
-            int target = getInfectedPlayerBySteamId(steamId);
-            RegisterTankVote(client, target);
-        }
-
-        case MenuAction_End:
-        {
-            CloseHandle(menu);
-        }
-     }
-
-    return 0;
-}
-
-public void RegisterTankVote(int client, int target)
-{    
-    if (!tankVoteInProgress)
-        return;
-
-    int index = FindinHandle(h_tankVotesClientIds, target);
-    
-    if (index == -1)
-    {
-        PushArrayCell(h_tankVotesClientIds, target);
-        PushArrayCell(h_tankVotes, 1);
-    }
-    else 
-        SetArrayCell(h_tankVotes, index, GetArrayCell(h_tankVotes, index) + 1);
-
-    char clientName[64];
-    GetClientName(client, clientName, sizeof(clientName));
-    
-    char targetName[64];
-    GetClientName(target, targetName, sizeof(targetName));
-
-    PrintToInfected("{red}[Tank Vote] {default}{olive}%s {default}has voted for {olive}%s", clientName, targetName);
-
-    remainingVotes--;
-
-    ChooseTankByVotes();
-
-    if (remainingVotes > 0)
-        return;
-
-    tankVoteInProgress = false;
-
-    h_tankVotes.Clear();
-    h_tankVotesClientIds.Clear();
-
-    outputTankToAll(0);
-}
-
-public int FindinHandle(Handle sourceHandle, int searchValue)
-{
-    for (int i = 0; i < GetArraySize(sourceHandle); i++)
-        if (GetArrayCell(sourceHandle, i) == searchValue)
-            return i;
-
-    return -1;
-}
-
-public Action Timer_ChooseTank(Handle timer)
-{
-    if (!tankVoteInProgress)
-        return Plugin_Continue;
-
-    ChooseTankByVotes();
-
-    tankVoteInProgress = false;
-    remainingVotes = 0;
-
-    h_tankVotes.Clear();
-    h_tankVotesClientIds.Clear();
-
-    outputTankToAll(0);
-
-    return Plugin_Continue;
-}
-
-public void ChooseTankByVotes()
-{
-    if (GetArraySize(h_tankVotes) == 0)
-        return;
-
-    int mostVotes = -1;
-    int mostVotesIndex = 0;
-
-    for (int i = 0; i < GetArraySize(h_tankVotes); i++)
-    {
-        int votes = GetArrayCell(h_tankVotes, i);
-
-        if (votes > mostVotes)
-        {
-            mostVotes = votes;
-            mostVotesIndex = i;
-        }
-    }
-
-    int clientId = GetArrayCell(h_tankVotesClientIds, mostVotesIndex);
-
-    char steamId[64];
-    GetClientAuthId(clientId, AuthId_Steam2, steamId, sizeof(steamId));
-    strcopy(queuedTankSteamId, sizeof(queuedTankSteamId), steamId);
-
-    tankSelectedByVotes = true;
+    if (StrEqual(name, "caster_system")) casterSystemAvailable = false;
 }
 
 /*public void OnClientDisconnect(int client) 
@@ -331,24 +129,22 @@ public void ChooseTankByVotes()
  
 public void RoundStart_Event(Event hEvent, const char[] eName, bool dontBroadcast)
 {
-    tankVoteInProgress = false;
-    tankSelectedByVotes = false;
     CreateTimer(10.0, newGame);
 }
 
 public Action newGame(Handle timer)
 {
-	int teamAScore = L4D2Direct_GetVSCampaignScore(0);
-	int teamBScore = L4D2Direct_GetVSCampaignScore(1);
+    int teamAScore = L4D2Direct_GetVSCampaignScore(0);
+    int teamBScore = L4D2Direct_GetVSCampaignScore(1);
 
-	// If it's a new game, reset the tank pool
-	if (teamAScore == 0 && teamBScore == 0)
-	{
-		h_whosHadTank.Clear();
-		queuedTankSteamId = "";
-	}
+    // If it's a new game, reset the tank pool
+    if (teamAScore == 0 && teamBScore == 0)
+    {
+        h_whosHadTank.Clear();
+        queuedTankSteamId = "";
+    }
 
-	return Plugin_Stop;
+    return Plugin_Stop;
 }
 
 /**
@@ -367,9 +163,7 @@ public void RoundEnd_Event(Event hEvent, const char[] eName, bool dontBroadcast)
 public void PlayerLeftStartArea_Event(Event hEvent, const char[] eName, bool dontBroadcast)
 {
     chooseTank(0);
-
-    if (!tankVoteInProgress && !tankSelectedByVotes)
-        outputTankToAll(0);
+    outputTankToAll(0);
 }
 
 /**
@@ -378,19 +172,19 @@ public void PlayerLeftStartArea_Event(Event hEvent, const char[] eName, bool don
  
 public void PlayerTeam_Event(Event hEvent, const char[] name, bool dontBroadcast)
 {
-	L4D2Team oldTeam = view_as<L4D2Team>(hEvent.GetInt("oldteam"));
-	int client = GetClientOfUserId(hEvent.GetInt("userid"));
-	char tmpSteamId[64];
+    L4D2Team oldTeam = view_as<L4D2Team>(hEvent.GetInt("oldteam"));
+    int client = GetClientOfUserId(hEvent.GetInt("userid"));
+    char tmpSteamId[64];
 
-	if (client && oldTeam == view_as<L4D2Team>(L4D2Team_Infected))
-	{
-		GetClientAuthId(client, AuthId_Steam2, tmpSteamId, sizeof(tmpSteamId));
-		if (strcmp(queuedTankSteamId, tmpSteamId) == 0)
-		{
-			RequestFrame(chooseTank, 0);
-			RequestFrame(outputTankToAll, 0);
-		}
-	}
+    if (client && oldTeam == view_as<L4D2Team>(L4D2Team_Infected))
+    {
+        GetClientAuthId(client, AuthId_Steam2, tmpSteamId, sizeof(tmpSteamId));
+        if (strcmp(queuedTankSteamId, tmpSteamId) == 0)
+        {
+            RequestFrame(chooseTank, 0);
+            RequestFrame(outputTankToAll, 0);
+        }
+    }
 }
 
 /**
@@ -522,47 +316,56 @@ public Action GiveTank_Cmd(int client, int args)
  
 public void chooseTank(any data)
 {
-    if (tankSelectedByVotes)
-        return;
+    //Let other plugins to override tank selection
+    char sOverrideTank[64];
+    sOverrideTank[0] = '\0';
+    Call_StartForward(hForwardOnTankSelection);
+    Call_PushStringEx(sOverrideTank, sizeof(sOverrideTank), SM_PARAM_STRING_UTF8, SM_PARAM_COPYBACK);
+    Call_Finish();
 
-    // Create our pool of players to choose from
-    ArrayList infectedPool = new ArrayList(ByteCountToCells(64));
-    addTeamSteamIdsToArray(infectedPool, L4D2Team_Infected);
-    
-    // If there is nobody on the infected team, return (otherwise we'd be stuck trying to select forever)
-    if (GetArraySize(infectedPool) == 0)
+    if (StrEqual(sOverrideTank, ""))
     {
-        delete infectedPool;
-        return;
-    }
-
-    // Remove players who've already had tank from the pool.
-    removeTanksFromPool(infectedPool, h_whosHadTank);
-    
-    // If the infected pool is empty, remove infected players from pool
-    if (GetArraySize(infectedPool) == 0) // (when nobody on infected ,error)
-    {
-        ArrayList infectedTeam = new ArrayList(ByteCountToCells(64));
-        addTeamSteamIdsToArray(infectedTeam, L4D2Team_Infected);
-        if (GetArraySize(infectedTeam) > 1)
+        // Create our pool of players to choose from
+        ArrayList infectedPool = new ArrayList(ByteCountToCells(64));
+        addTeamSteamIdsToArray(infectedPool, L4D2Team_Infected);
+        
+        // If there is nobody on the infected team, return (otherwise we'd be stuck trying to select forever)
+        if (GetArraySize(infectedPool) == 0)
         {
-            removeTanksFromPool(h_whosHadTank, infectedTeam);
-            chooseTank(0);
+            delete infectedPool;
+            return;
         }
-        else
+
+        // Remove players who've already had tank from the pool.
+        removeTanksFromPool(infectedPool, h_whosHadTank);
+        
+        // If the infected pool is empty, remove infected players from pool
+        if (GetArraySize(infectedPool) == 0) // (when nobody on infected ,error)
         {
-            queuedTankSteamId = "";
+            ArrayList infectedTeam = new ArrayList(ByteCountToCells(64));
+            addTeamSteamIdsToArray(infectedTeam, L4D2Team_Infected);
+            if (GetArraySize(infectedTeam) > 1)
+            {
+                removeTanksFromPool(h_whosHadTank, infectedTeam);
+                chooseTank(0);
+            }
+            else
+            {
+                queuedTankSteamId = "";
+            }
+            
+            delete infectedTeam;
+            delete infectedPool;
+            return;
         }
         
-        delete infectedTeam;
+        // Select a random person to become tank
+        int rndIndex = GetRandomInt(0, GetArraySize(infectedPool) - 1);
+        GetArrayString(infectedPool, rndIndex, queuedTankSteamId, sizeof(queuedTankSteamId));
         delete infectedPool;
-        return;
+    } else {
+        strcopy(queuedTankSteamId, sizeof(queuedTankSteamId), sOverrideTank);
     }
-    
-    // Select a random person to become tank
-    int rndIndex = GetRandomInt(0, GetArraySize(infectedPool) - 1);
-    GetArrayString(infectedPool, rndIndex, queuedTankSteamId, sizeof(queuedTankSteamId));
-    delete infectedPool;
 }
 
 /**
@@ -589,6 +392,11 @@ public Action L4D_OnTryOfferingTankBot(int tank_index, bool &enterStatis)
         
         return Plugin_Handled;
     }
+
+    //Allow third party plugins to override tank selection
+    Call_StartForward(hForwardOnTryOfferingTankBot);
+    Call_PushStringEx(queuedTankSteamId, sizeof(queuedTankSteamId), SM_PARAM_STRING_UTF8, SM_PARAM_COPYBACK);
+    Call_Finish();
     
     // If we don't have a queued tank, choose one
     if (! strcmp(queuedTankSteamId, ""))
@@ -627,9 +435,6 @@ public void setTankTickets(const char[] steamId, int tickets)
  
 public void outputTankToAll(any data)
 {
-    if (tankVoteInProgress)
-        return;
-
     char tankClientName[MAX_NAME_LENGTH];
     int tankClientId = getInfectedPlayerBySteamId(queuedTankSteamId);
     
