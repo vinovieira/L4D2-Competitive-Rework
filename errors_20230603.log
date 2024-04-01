@@ -1,0 +1,20 @@
+L 06/03/2023 - 00:25:20: SourceMod error session started
+L 06/03/2023 - 00:25:20: Info (map "c2m3_coaster") (file "/home/clientes/OGP_User_Files/whmcs/8024/left4dead2/addons/sourcemod/logs/errors_20230603.log")
+L 06/03/2023 - 00:25:20: [SM] Exception reported: Could not retrieve value for key 'position'
+L 06/03/2023 - 00:25:20: [SM] Blaming: optional/l4d2_playstats_sync.smx
+L 06/03/2023 - 00:25:20: [SM] Call stack trace:
+L 06/03/2023 - 00:25:20: [SM]   [0] JSONObject.GetInt
+L 06/03/2023 - 00:25:20: [SM]   [1] Line 191, ..\addons\sourcemod\scripting\l4d2_playstats_sync.sp::ShowRankingResponse
+L 06/03/2023 - 00:34:28: Error log file session closed.
+L 06/03/2023 - 12:13:27: SourceMod error session started
+L 06/03/2023 - 12:13:27: Info (map "c2m1_highway") (file "/home/clientes/OGP_User_Files/whmcs/8024/left4dead2/addons/sourcemod/logs/errors_20230603.log")
+L 06/03/2023 - 12:13:27: [SM] Exception reported: Could not retrieve value for key 'position'
+L 06/03/2023 - 12:13:27: [SM] Blaming: optional/l4d2_playstats_sync.smx
+L 06/03/2023 - 12:13:27: [SM] Call stack trace:
+L 06/03/2023 - 12:13:27: [SM]   [0] JSONObject.GetInt
+L 06/03/2023 - 12:13:27: [SM]   [1] Line 191, ..\addons\sourcemod\scripting\l4d2_playstats_sync.sp::ShowRankingResponse
+L 06/03/2023 - 12:17:12: [SM] Exception reported: Could not retrieve value for key 'position'
+L 06/03/2023 - 12:17:12: [SM] Blaming: optional/l4d2_playstats_sync.smx
+L 06/03/2023 - 12:17:12: [SM] Call stack trace:
+L 06/03/2023 - 12:17:12: [SM]   [0] JSONObject.GetInt
+L 06/03/2023 - 12:17:12: [SM]   [1] Line 191, ..\addons\sourcemod\scripting\l4d2_playstats_sync.sp::ShowRankingResponse

@@ -1,0 +1,2830 @@
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+You must be a server admin to use mp_disable_autokick
+Unknown command "sv_allow_color_correction"
+maxplayers set to 18
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311172333_000.log
+L 11/17/2023 - 23:33:19: Log file started (file "logs\L000_000_000_000_0_202311172333_000.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sv_unlag"
+Unknown command "sv_maxunlag"
+Adding master at 68.142.72.250:27011
+Adding master at 72.165.61.189:27011
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server logging data to file logs\L177_054_151_123_27015_202311172333_000.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.907772ms
+CSpeechScriptBridge initializing...
+SCRIPT PERF WARNING --- "main" ran long at 7.941824ms
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.760364ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 2.999362ms
+Initializing Director's script
+************************************************
+*  Unable to load Steam support library.       *
+*  This server will operate in LAN mode only.  *
+************************************************
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sv_allow_color_correction"
+Cannot change maxplayers while the server is running
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311172333_001.log
+Unknown command "sv_unlag"
+Unknown command "sv_maxunlag"
+Master at 68.142.72.250:27011 already in list
+Master at 72.165.61.189:27011 already in list
+Sending heartbeat to master server...
+Sending heartbeat to master server...
+RejectConnection: 192.140.43.9:25804 - #Valve_Reject_LAN_Game
+RejectConnection: 192.140.43.9:25804 - #Valve_Reject_LAN_Game
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+You must be a server admin to use mp_disable_autokick
+Unknown command "sv_allow_color_correction"
+maxplayers set to 18
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311172341_000.log
+L 11/17/2023 - 23:41:50: Log file started (file "logs\L000_000_000_000_0_202311172341_000.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sv_unlag"
+Unknown command "sv_maxunlag"
+Adding master at 68.142.72.250:27011
+Adding master at 72.165.61.189:27011
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server logging data to file logs\L177_054_151_123_27015_202311172341_000.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.293754ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 2.993281ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 4.408404ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sv_allow_color_correction"
+Cannot change maxplayers while the server is running
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311172341_001.log
+Unknown command "sv_unlag"
+Unknown command "sv_maxunlag"
+Invalid setmaster command
+Invalid setmaster command
+Connection to Steam servers successful.
+   VAC secure mode is activated.
+Client "phantom" connected (192.140.43.9:25804).
+Server waking up from hibernation
+Invalid counterterrorist spawnpoint at (1735.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1698.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1750.6,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1762.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1699.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1742.4,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1693.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2608.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2539.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2560.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2514.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2440.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1859.7,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1797.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1772.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2144.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (2072.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (908.8,2817.0,2817.0)
+Invalid counterterrorist spawnpoint at (2303.4,2816.0,2816.0)
+VSCRIPT: Running anv_mapfixes.nut
+ConVarRef mat_hdr_manual_tonemap_rate doesn't point to an existing ConVar
+String Table dictionary for downloadables should be rebuilt, only found 75 of 89 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 9712 of 19091 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 6728 of 15775 strings in dictionary
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+NextBot tickrate changed from 0 (0.000ms) to 3 (0.100ms)
+Initiating Reserved Wanderers
+(Survivor) phantom: !match
+phantom attacked Coach
+phantom attacked Coach
+Dropped phantom from server (Disconnect by user.)
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.890471ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named ds-f3ceilingF1-DECAL, which point_template ds-f3ceilingF1-template is specifying.
+Couldn't find any entities named ds-f3ceilingF2-DECAL, which point_template ds-f3ceilingF2-template is specifying.
+Couldn't find any entities named ds-f3ceilingF3-DECAL, which point_template ds-f3ceilingF3-template is specifying.
+Couldn't find any entities named ds-f3ceilingF4-DECAL, which point_template ds-f3ceilingF4-template is specifying.
+Couldn't find any entities named ds-f3ceilingF5-DECAL, which point_template ds-f3ceilingF5-template is specifying.
+Couldn't find any entities named ds-f3ceilingF6-DECAL, which point_template ds-f3ceilingF6-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.008799ms
+Initializing Director's script
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+-> Reservation cookie 1860000f05419e2:  reason ReplyReservationRequest
+---- Host_NewGame ----
+Server logging data to file logs\L177_054_151_123_27015_202311172359_000.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c8m5_rooftop
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.456551ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.432757ms
+Initializing Director's script
+material models/weapons/melee/shovel/shovel has a normal map and $basealphaenvmapmask.  Must use $normalmapalphaenvmapmask to get specular.
+
+Commentary: Loading commentary data from maps/c8m5_rooftop_commentary.txt. 
+VSCRIPT: Running anv_mapfixes.nut
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.240383ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+Note: Changes to sv_pure take effect when the next map is loaded.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311172359_001.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Client "Coquita yt" connected (181.115.167.126:14099).
+Server waking up from hibernation
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 4.362933ms
+Initializing Director's script
+Couldn't find any entities named gascan_scavenge, which point_template template_scavenge_items is specifying.
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.142001ms
+Initializing Director's script
+Client "Abusabuelas" connected (132.251.232.139:27005).
+Client "Dipsy" connected (190.11.64.38:27005).
+Initiating c8m5_rooftop script
+String Table dictionary for downloadables should be rebuilt, only found 29 of 51 strings in dictionary
+String Table dictionary for modelprecache should be rebuilt, only found 507 of 567 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 16109 of 19094 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 13123 of 15777 strings in dictionary
+String Table dictionary for downloadables should be rebuilt, only found 29 of 51 strings in dictionary
+String Table dictionary for modelprecache should be rebuilt, only found 507 of 567 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 16109 of 19094 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 13123 of 15777 strings in dictionary
+String Table dictionary for downloadables should be rebuilt, only found 29 of 51 strings in dictionary
+String Table dictionary for modelprecache should be rebuilt, only found 507 of 567 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 16109 of 19094 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 13123 of 15777 strings in dictionary
+Connection to Steam servers successful.
+   VAC secure mode is activated.
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+SCRIPT PERF WARNING --- "__RunGameEventCallbacks" ran long at 2.648345ms
+VSCRIPT: Running anv_versus.nut
+Late precache of models/props_rooftop/Gutter_Pipe_256.mdl
+Late precache of models/props_pipes/PipeSet02d_512_001a.mdl
+SCRIPT PERF WARNING --- "main" ran long at 6.252520ms
+Client "Peter Castle" connected (45.191.96.53:27005).
+String Table dictionary for downloadables should be rebuilt, only found 29 of 51 strings in dictionary
+String Table dictionary for modelprecache should be rebuilt, only found 507 of 569 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 16109 of 19094 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 13123 of 15777 strings in dictionary
+CreateFragmentsFromFile: 'downloads/db964715.dat' doesn't exist.
+Client "Lady Dimitrescu" connected (179.58.89.70:30605).
+String Table dictionary for downloadables should be rebuilt, only found 29 of 51 strings in dictionary
+String Table dictionary for modelprecache should be rebuilt, only found 507 of 569 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 16109 of 19094 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 13123 of 15777 strings in dictionary
+Client "gustavocondorialvarez19" connected (177.222.113.73:64641).
+String Table dictionary for downloadables should be rebuilt, only found 29 of 51 strings in dictionary
+String Table dictionary for modelprecache should be rebuilt, only found 507 of 569 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 16109 of 19094 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 13123 of 15777 strings in dictionary
+Client "y_lod52" connected (179.6.18.69:43504).
+String Table dictionary for downloadables should be rebuilt, only found 29 of 51 strings in dictionary
+String Table dictionary for modelprecache should be rebuilt, only found 507 of 569 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 16109 of 19094 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 13123 of 15777 strings in dictionary
+Download file 'downloads/43de68d7.dat' already exists!
+CreateFragmentsFromFile: 'downloads/3fc3ad67.dat' doesn't exist.
+CreateFragmentsFromFile: 'downloads/3fc3ad67.dat' doesn't exist.
+CreateFragmentsFromFile: 'downloads/3fc3ad67.dat' doesn't exist.
+CreateFragmentsFromFile: 'downloads/3fc3ad67.dat' doesn't exist.
+Client "cc depre" connected (181.188.178.212:19899).
+String Table dictionary for downloadables should be rebuilt, only found 29 of 51 strings in dictionary
+String Table dictionary for modelprecache should be rebuilt, only found 507 of 569 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 16109 of 19094 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 13123 of 15777 strings in dictionary
+Dropped Lady Dimitrescu from server (Disconnect by user.)
+CreateFragmentsFromFile: 'downloads/3fc3ad67.dat' doesn't exist.
+CreateFragmentsFromFile: 'downloads/39140747.dat' doesn't exist.
+CreateFragmentsFromFile: 'downloads/39140747.dat' doesn't exist.
+CreateFragmentsFromFile: 'downloads/39140747.dat' doesn't exist.
+CreateFragmentsFromFile: 'downloads/39140747.dat' doesn't exist.
+Client "what?" connected (181.66.37.92:27005).
+String Table dictionary for downloadables should be rebuilt, only found 29 of 51 strings in dictionary
+String Table dictionary for modelprecache should be rebuilt, only found 507 of 569 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 16109 of 19094 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 13123 of 15777 strings in dictionary
+Abusabuelas attacked cc depre
+Abusabuelas attacked cc depre
+Abusabuelas attacked cc depre
+Coquita yt: y las latas?
+(Survivor) cc depre: objetivo?
+*DEAD* what?: !match
+what? attacked Smoker
+Dropped what? from server (Disconnect by user.)
+Dropped Peter Castle from server (Disconnect by user.)
+Potential vote being called
+Dropped cc depre from server (Disconnect by user.)
+Coquita yt: f1
+Coquita yt attacked Dipsy
+Client "Licenciado Banana" connected (200.87.92.142:27005).
+String Table dictionary for downloadables should be rebuilt, only found 29 of 51 strings in dictionary
+String Table dictionary for modelprecache should be rebuilt, only found 507 of 569 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 16109 of 19094 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 13123 of 15777 strings in dictionary
+Dropped Coquita yt from server (Disconnect by user.)
+Dropped Dipsy from server (Disconnect by user.)
+Dropped Abusabuelas from server (Disconnect by user.)
+Dropped gustavocondorialvarez19 from server (Disconnect by user.)
+y_lod52 attacked Spitter
+Dropped y_lod52 from server (Disconnect by user.)
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 4.528885ms
+Initializing Director's script
+Couldn't find any entities named gascan_scavenge, which point_template template_scavenge_items is specifying.
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.312686ms
+Initializing Director's script
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+SCRIPT PERF WARNING --- "__RunGameEventCallbacks" ran long at 2.134925ms
+VSCRIPT: Running anv_versus.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.510694ms
+Can't kick "Spitter", name not found
+Can't kick "Jockey", name not found
+userid "31" not found
+Initiating c8m5_rooftop script
+Dropped Licenciado Banana from server (Disconnect by user.)
+-> Reservation cookie 0:  reason reserved(yes), clients(no), reservationexpires(0.00)
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.085593ms
+Initializing Director's script
+Couldn't find any entities named gascan_scavenge, which point_template template_scavenge_items is specifying.
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.162582ms
+Initializing Director's script
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+SCRIPT PERF WARNING --- "__RunGameEventCallbacks" ran long at 2.067603ms
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180007_000.log
+L 11/18/2023 - 00:07:57: Log file started (file "logs\L000_000_000_000_0_202311180007_000.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180007_000.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.185757ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.176759ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.158137ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180007_001.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Connection to Steam servers successful.
+   VAC secure mode is activated.
+Client "phantom" connected (192.140.43.9:25804).
+Server waking up from hibernation
+Invalid counterterrorist spawnpoint at (1735.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1698.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1750.6,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1762.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1699.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1742.4,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1693.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2608.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2539.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2560.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2514.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2440.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1859.7,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1797.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1772.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2144.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (2072.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (908.8,2817.0,2817.0)
+Invalid counterterrorist spawnpoint at (2303.4,2816.0,2816.0)
+VSCRIPT: Running anv_mapfixes.nut
+String Table dictionary for downloadables should be rebuilt, only found 75 of 89 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 9712 of 19091 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 6728 of 15775 strings in dictionary
+ConVarRef mat_hdr_manual_tonemap_rate doesn't point to an existing ConVar
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+NextBot tickrate changed from 0 (0.000ms) to 3 (0.100ms)
+Initiating Reserved Wanderers
+(Survivor) phantom: !match
+(Survivor) phantom: !match
+(Survivor) phantom: !admin
+Dropped phantom from server (Disconnect by user.)
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.656000ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named ds-f3ceilingF1-DECAL, which point_template ds-f3ceilingF1-template is specifying.
+Couldn't find any entities named ds-f3ceilingF2-DECAL, which point_template ds-f3ceilingF2-template is specifying.
+Couldn't find any entities named ds-f3ceilingF3-DECAL, which point_template ds-f3ceilingF3-template is specifying.
+Couldn't find any entities named ds-f3ceilingF4-DECAL, which point_template ds-f3ceilingF4-template is specifying.
+Couldn't find any entities named ds-f3ceilingF5-DECAL, which point_template ds-f3ceilingF5-template is specifying.
+Couldn't find any entities named ds-f3ceilingF6-DECAL, which point_template ds-f3ceilingF6-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 4.013867ms
+Initializing Director's script
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180015_000.log
+L 11/18/2023 - 00:15:02: Log file started (file "logs\L000_000_000_000_0_202311180015_000.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180015_000.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.221159ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.139937ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.017253ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180015_001.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Connection to Steam servers successful.
+   VAC secure mode is activated.
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180016_000.log
+L 11/18/2023 - 00:16:13: Log file started (file "logs\L000_000_000_000_0_202311180016_000.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180016_000.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.070113ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.065637ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.696707ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180016_001.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Connection to Steam servers successful.
+   VAC secure mode is activated.
+Client "phantom" connected (192.140.43.9:25804).
+Server waking up from hibernation
+Invalid counterterrorist spawnpoint at (1735.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1698.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1750.6,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1762.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1699.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1742.4,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1693.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2608.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2539.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2560.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2514.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2440.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1859.7,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1797.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1772.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2144.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (2072.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (908.8,2817.0,2817.0)
+Invalid counterterrorist spawnpoint at (2303.4,2816.0,2816.0)
+VSCRIPT: Running anv_mapfixes.nut
+String Table dictionary for downloadables should be rebuilt, only found 75 of 89 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 9712 of 19091 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 6728 of 15775 strings in dictionary
+ConVarRef mat_hdr_manual_tonemap_rate doesn't point to an existing ConVar
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+NextBot tickrate changed from 0 (0.000ms) to 3 (0.100ms)
+Initiating Reserved Wanderers
+(Survivor) phantom: !match
+(Survivor) phantom: !admin
+Dropped phantom from server (Disconnect by user.)
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.409431ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named ds-f3ceilingF1-DECAL, which point_template ds-f3ceilingF1-template is specifying.
+Couldn't find any entities named ds-f3ceilingF2-DECAL, which point_template ds-f3ceilingF2-template is specifying.
+Couldn't find any entities named ds-f3ceilingF3-DECAL, which point_template ds-f3ceilingF3-template is specifying.
+Couldn't find any entities named ds-f3ceilingF4-DECAL, which point_template ds-f3ceilingF4-template is specifying.
+Couldn't find any entities named ds-f3ceilingF5-DECAL, which point_template ds-f3ceilingF5-template is specifying.
+Couldn't find any entities named ds-f3ceilingF6-DECAL, which point_template ds-f3ceilingF6-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.112167ms
+Initializing Director's script
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180030_000.log
+L 11/18/2023 - 00:30:26: Log file started (file "logs\L000_000_000_000_0_202311180030_000.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180030_000.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.205051ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.081389ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 4.076270ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180030_001.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Connection to Steam servers successful.
+   VAC secure mode is activated.
+Client "phantom" connected (192.140.43.9:25804).
+Server waking up from hibernation
+Invalid counterterrorist spawnpoint at (1735.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1698.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1750.6,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1762.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1699.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1742.4,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1693.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2608.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2539.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2560.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2514.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2440.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1859.7,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1797.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1772.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2144.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (2072.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (908.8,2817.0,2817.0)
+Invalid counterterrorist spawnpoint at (2303.4,2816.0,2816.0)
+VSCRIPT: Running anv_mapfixes.nut
+String Table dictionary for downloadables should be rebuilt, only found 75 of 89 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 9712 of 19091 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 6728 of 15775 strings in dictionary
+ConVarRef mat_hdr_manual_tonemap_rate doesn't point to an existing ConVar
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+NextBot tickrate changed from 0 (0.000ms) to 3 (0.100ms)
+Initiating Reserved Wanderers
+(Survivor) phantom: !match
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180040_000.log
+L 11/18/2023 - 00:40:49: Log file started (file "logs\L000_000_000_000_0_202311180040_000.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180040_000.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.383777ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.526574ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.036362ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180040_001.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Connection to Steam servers successful.
+   VAC secure mode is activated.
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180042_000.log
+L 11/18/2023 - 00:42:45: Log file started (file "logs\L000_000_000_000_0_202311180042_000.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180042_000.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.089149ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 4.057919ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 2.966090ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180042_001.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Connection to Steam servers successful.
+   VAC secure mode is activated.
+Client "phantom" connected (192.140.43.9:25804).
+Server waking up from hibernation
+Invalid counterterrorist spawnpoint at (1735.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1698.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1750.6,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1762.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1699.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1742.4,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1693.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2608.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2539.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2560.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2514.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2440.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1859.7,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1797.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1772.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2144.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (2072.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (908.8,2817.0,2817.0)
+Invalid counterterrorist spawnpoint at (2303.4,2816.0,2816.0)
+VSCRIPT: Running anv_mapfixes.nut
+String Table dictionary for downloadables should be rebuilt, only found 75 of 89 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 9712 of 19091 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 6728 of 15775 strings in dictionary
+ConVarRef mat_hdr_manual_tonemap_rate doesn't point to an existing ConVar
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+NextBot tickrate changed from 0 (0.000ms) to 3 (0.100ms)
+Initiating Reserved Wanderers
+(Survivor) phantom: !match
+(Survivor) phantom: !admin
+(Survivor) phantom: !admin
+Dropped phantom from server (Disconnect by user.)
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.564996ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named ds-f3ceilingF1-DECAL, which point_template ds-f3ceilingF1-template is specifying.
+Couldn't find any entities named ds-f3ceilingF2-DECAL, which point_template ds-f3ceilingF2-template is specifying.
+Couldn't find any entities named ds-f3ceilingF3-DECAL, which point_template ds-f3ceilingF3-template is specifying.
+Couldn't find any entities named ds-f3ceilingF4-DECAL, which point_template ds-f3ceilingF4-template is specifying.
+Couldn't find any entities named ds-f3ceilingF5-DECAL, which point_template ds-f3ceilingF5-template is specifying.
+Couldn't find any entities named ds-f3ceilingF6-DECAL, which point_template ds-f3ceilingF6-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.011696ms
+Initializing Director's script
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180045_000.log
+L 11/18/2023 - 00:45:14: Log file started (file "logs\L000_000_000_000_0_202311180045_000.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180045_000.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.197369ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.085250ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.209382ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180045_001.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Connection to Steam servers successful.
+   VAC secure mode is activated.
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180045_001.log
+L 11/18/2023 - 00:45:24: Log file started (file "logs\L000_000_000_000_0_202311180045_001.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180045_002.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.161536ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.100312ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.458781ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180045_003.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180045_002.log
+L 11/18/2023 - 00:45:31: Log file started (file "logs\L000_000_000_000_0_202311180045_002.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180045_004.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.192199ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 4.118874ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 4.074297ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180045_005.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Connection to Steam servers successful.
+   VAC secure mode is activated.
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180045_003.log
+L 11/18/2023 - 00:45:40: Log file started (file "logs\L000_000_000_000_0_202311180045_003.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180045_006.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.667992ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.368846ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 4.011438ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180045_007.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180045_004.log
+L 11/18/2023 - 00:45:47: Log file started (file "logs\L000_000_000_000_0_202311180045_004.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180045_008.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 2.027012ms
+CSpeechScriptBridge initializing...
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.116096ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.671868ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180045_009.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+left4dead2\gameinfo.txt is missing.
+left4dead2\gameinfo.txt is missing.
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+Parent cvar in server.dll not allowed (spit_scaling_min_scale)
+Unable to load plugin "addons/metamod/bin/server"
+Unable to load plugin "addons/tickrate_enabler"
+Game supporting (2) split screen players
+maxplayers set to 18
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure set to 2.
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L000_000_000_000_0_202311180056_000.log
+L 11/18/2023 - 00:56:05: Log file started (file "logs\L000_000_000_000_0_202311180056_000.log") (game "d:\tcafiles\users\silvinoj\65124\left4dead2") (version "8934")
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "mat_bloom_scalefactor_scalar"
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+NET_GetBindAddresses found 10.81.1.61: 'Intel(R) I350 Gigabit Network Connection'
+NET_GetBindAddresses found 177.54.151.123: 'Intel(R) I350 Gigabit Network Connection #2'
+Network: IP 177.54.151.123, mode MP, dedicated Yes, ports 27015 SV / 0 CL
+---- Host_NewGame ----
+Server using sv_pure 2.
+Caching file CRCs for pure server...
+Finished caching file CRCs for pure server in 0 seconds.
+Server logging data to file logs\L177_054_151_123_27015_202311180056_000.log
+CAsyncWavDataCache:  0 .wavs total 0 bytes, 0.00 % of capacity
+Host_NewGame on map c1m1_hotel
+Executing dedicated server config file
+VSCRIPT: Running mapspawn.nut
+SCRIPT PERF WARNING --- "main" ran long at 3.174566ms
+CSpeechScriptBridge initializing...
+SCRIPT PERF WARNING --- "main" ran long at 7.944892ms
+	HSCRIPT loaded successfully
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 4.702574ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+Commentary: Loading commentary data from maps/c1m1_hotel_commentary.txt. 
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 4.305121ms
+Initializing Director's script
+Unknown command "cl_engine_reload_rosetta"
+Unknown command "hud_reloadscheme"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+exec: couldn't exec banned_user.cfg
+Unknown command "sm_cvar"
+--------------------------------------------------------
+sv_pure value unchanged (current value is 2).
+--------------------------------------------------------
+Server logging enabled.
+Server logging data to file logs\L177_054_151_123_27015_202311180056_001.log
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Unknown command "sm_cvar"
+Connection to Steam servers successful.
+   VAC secure mode is activated.
+Client "phantom" connected (192.140.43.9:25804).
+Server waking up from hibernation
+Invalid counterterrorist spawnpoint at (1735.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1698.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1750.6,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1762.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1699.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1742.4,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1693.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2608.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2539.3,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2560.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2514.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2440.0,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1859.7,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1797.5,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (1772.1,1184.0,1184.0)
+Invalid counterterrorist spawnpoint at (2144.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (2072.0,2656.0,2656.0)
+Invalid counterterrorist spawnpoint at (908.8,2817.0,2817.0)
+Invalid counterterrorist spawnpoint at (2303.4,2816.0,2816.0)
+VSCRIPT: Running anv_mapfixes.nut
+String Table dictionary for downloadables should be rebuilt, only found 75 of 89 strings in dictionary
+String Table dictionary for soundprecache should be rebuilt, only found 9712 of 19091 strings in dictionary
+String Table dictionary for Scenes should be rebuilt, only found 6728 of 15775 strings in dictionary
+ConVarRef mat_hdr_manual_tonemap_rate doesn't point to an existing ConVar
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
+NextBot tickrate changed from 0 (0.000ms) to 3 (0.100ms)
+Initiating Reserved Wanderers
+(Survivor) phantom: !match
+(Survivor) phantom: !admin
+(Survivor) phantom: !admin
+(Survivor) phantom: !match
+Dropped phantom from server (Disconnect by user.)
+Server is hibernating
+ConVarRef test_progression_loop doesn't point to an existing ConVar
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.156048ms
+Initializing Director's script
+Couldn't find any entities named fire13_timer, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_clip, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_smoke, which point_template fire13_template is specifying.
+Couldn't find any entities named fire13_fog_volume, which point_template fire13_template is specifying.
+Couldn't find any entities named fire14_timer, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_clip, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_smoke, which point_template fire14_template is specifying.
+Couldn't find any entities named fire14_fog_volume, which point_template fire14_template is specifying.
+Couldn't find any entities named fire15_timer, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_clip, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_smoke, which point_template fire15_template is specifying.
+Couldn't find any entities named fire15_fog_volume, which point_template fire15_template is specifying.
+Couldn't find any entities named fire16_timer, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_clip, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_smoke, which point_template fire16_template is specifying.
+Couldn't find any entities named fire16_fog_volume, which point_template fire16_template is specifying.
+Couldn't find any entities named sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named ds-f3ceilingF1-DECAL, which point_template ds-f3ceilingF1-template is specifying.
+Couldn't find any entities named ds-f3ceilingF2-DECAL, which point_template ds-f3ceilingF2-template is specifying.
+Couldn't find any entities named ds-f3ceilingF3-DECAL, which point_template ds-f3ceilingF3-template is specifying.
+Couldn't find any entities named ds-f3ceilingF4-DECAL, which point_template ds-f3ceilingF4-template is specifying.
+Couldn't find any entities named ds-f3ceilingF5-DECAL, which point_template ds-f3ceilingF5-template is specifying.
+Couldn't find any entities named ds-f3ceilingF6-DECAL, which point_template ds-f3ceilingF6-template is specifying.
+Couldn't find any entities named fire03-sound, which point_template fire03-template is specifying.
+Couldn't find any entities named fire04-sound, which point_template fire04-template is specifying.
+Couldn't find any entities named fire10-sound, which point_template fire10-template is specifying.
+Couldn't find any entities named fire27-sound, which point_template fire27-template is specifying.
+Couldn't find any entities named fire28-sound, which point_template fire28-template is specifying.
+Couldn't find any entities named fire_ballroom_02-sound, which point_template fire_ballroom_02-template is specifying.
+Couldn't find any entities named fire_ballroom_01-sound, which point_template fire_ballroom_01-template is specifying.
+Couldn't find any entities named fire_ballroom_03-sound, which point_template fire_ballroom_03-template is specifying.
+Couldn't find any entities named fire_ballroom_04-sound, which point_template fire_ballroom_04-template is specifying.
+Couldn't find any entities named fire_ballroom_05-sound, which point_template fire_ballroom_05-template is specifying.
+Couldn't find any entities named fire_ballroom_06-sound, which point_template fire_ballroom_06-template is specifying.
+Couldn't find any entities named fire_ballroom_07-particles, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point1, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point3, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point5, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-point6, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-hurt, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_07-sound, which point_template fire_ballroom_07-template is specifying.
+Couldn't find any entities named fire_ballroom_08-sound, which point_template fire_ballroom_08-template is specifying.
+Couldn't find any entities named fire_ballroom_09-sound, which point_template fire_ballroom_09-template is specifying.
+Couldn't find any entities named fire_ballroom_10-sound, which point_template fire_ballroom_10-template is specifying.
+Couldn't find any entities named fire_ballroom_11-sound, which point_template fire_ballroom_11-template is specifying.
+Couldn't find any entities named inferno02-sound, which point_template inferno02-template is specifying.
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+prop_door_rotating has Door model (models/props_downtown/metal_door_112_dm03_01.mdl) with no door_options! Verify that SKIN is valid, and has a corresponding options block in the model QC file
+SCRIPT PERF WARNING --- "ScriptMode_Init" ran long at 3.027926ms
+Initializing Director's script
+Anniversary Map Fixes: Restart with Launch Option -dev to reveal verbose entity debug dumps.
+Anniversary Demo Mode: Run "script_execute z_developer_showupdate" >> "script ShowUpdate()".
